@@ -1,0 +1,14 @@
+{
+    "name": "chico/student-management",
+    "description": "A role-based PHP Student Management System using LAMP stack and PHPMailer",
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chico",
+            "email": "chicostudyat@gmail.com"
+        }
+    ]
+}
