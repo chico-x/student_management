@@ -3,23 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Student Management System</title>
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 	
-	<h1>Welcome to the student Management System</h1>
-    <div class="card-container">
-    	<div class="card">
-    		<h2>I am a student</h2>
-    		<a href="login/student_login.php">Login</a>
-    		<a href="register/student_register.php">Register</a>
-    	</div>
-    	<div class="card">
-    	    <h2>I am a teacher</h2>
-    	    <a href="login/teacher_login.php">Login</a>
-    	    <a href="register/teacher_register.php">Register</a>
-    	</div>
+	  <div class="container">
+    <div class="card">
+      <h2>Student</h2>
+      <button onclick="window.location.href='student/login.php'">Login</button>
+      <br><br>
+      <button onclick="window.location.href='student/register.php'">Register</button>
     </div>
+
+    <div class="card">
+      <h2>Teacher</h2>
+      <button onclick="window.location.href='teacher/login.php'">Login</button>
+      <br><br>
+      <button onclick="window.location.href='teacher/register.php'">Register</button>
+    </div>
+  </div>
 
 </body>
 </html>
